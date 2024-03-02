@@ -2903,21 +2903,42 @@ input, select, textarea {
 
 /* Contact Method */
 
-	.contact-method {
+	/*.contact-method {
 		margin: 0 0 2em 0;
 		padding-left: 3.25em;
-		position: relative;
+		/* position: relative; 
+		display: inline-block;
 	}
 
 		.contact-method .icon {
-			left: 0;
+			 left: 0;
 			position: absolute;
-			top: 0;
+			top: 0; 
 		}
 
 		.contact-method h3 {
 			margin: 0 0 0.5em 0;
-		}
+		} */
+/* Contact Method */
+
+	.contact-methods {
+    	display: flex;
+    	justify-content: space-between;
+	}
+
+	.contact-method {
+    	margin: 0 0 2em 0;
+    	padding-left: 3.25em;
+	}
+
+	.contact-method .icon {
+    	margin-right: 1em; /* Adjust spacing between icon and text */
+	}
+
+	.contact-method h3 {
+    	margin: 0;
+	}
+
 
 /* Spotlights */
 
@@ -3623,7 +3644,7 @@ input, select, textarea {
 
 /* Contact */
 
-	#contact {
+	/* #contact {
 		border-bottom: solid 1px rgba(212, 212, 255, 0.1);
 		overflow-x: hidden;
 	}
@@ -3703,7 +3724,7 @@ input, select, textarea {
 				padding: 3em 0 1em 0 ;
 			}
 
-		}
+		} */
 
 /* Footer */
 
