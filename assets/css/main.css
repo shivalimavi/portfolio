@@ -2765,7 +2765,7 @@ input, select, textarea {
 			}
 
 			.tiles article h3 {
-				font-size: 1.75em;
+				font-size: 1.80em;
 			}
 
 				.tiles article h3 a:hover {
@@ -2826,8 +2826,12 @@ input, select, textarea {
 				opacity: 0;
 			}
 
-			.tiles article:nth-child(4n - 1), .tiles article:nth-child(4n - 2) {
+			/* .tiles article:nth-child(4n - 1), .tiles article:nth-child(4n - 2) {
 				width: 60%;
+			} */
+
+			.tiles article {
+				width: calc(35.79% - 2em); /* Set width for each article to one-third of the container width */
 			}
 
 			.tiles article:nth-child(6n - 5):before {
